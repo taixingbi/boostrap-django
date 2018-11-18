@@ -1,0 +1,34 @@
+# setup env
+
+pip install virtualenv
+
+virtualenv venv
+
+source venv/bin/activate
+
+pip install Django==1.8.1
+
+pip freeze > requirements.txt
+
+pip install -r requirements.txt
+
+
+# setup django app
+
+django-admin startproject mysite
+
+cd mysite 
+//setup myapp
+python manage.py startapp myapp
+
+//setup database
+python manage.py migrate
+
+python manage.py runserver
+
+
+# reset from github
+virtualenv venv
+
+cd mysite 
+python manage.py runserver
