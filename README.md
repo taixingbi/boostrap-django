@@ -1,10 +1,10 @@
-# start django
+## start django
 virtualenv venv     
 source venv/bin/activate        
 cd mysite        
 python manage.py runserver      
 
-# setup env
+## setup env
 
 pip install virtualenv
 
@@ -19,15 +19,15 @@ pip freeze > requirements.txt
 pip install -r requirements.txt
 
 
-# setup django app
+## setup django app
 
 django-admin startproject mysite
 
 cd mysite 
-//setup myapp
+//setup myapp    
 python manage.py startapp myapp
 
-//setup database
+//setup database    
 python manage.py migrate
 
 python manage.py runserver
@@ -35,6 +35,6 @@ python manage.py runserver
 
 
 
-# reference
+## reference
 [1] [Django Intro Tutorial! Build a website in 11 mins](https://www.youtube.com/watch?v=PqeAvFf_HDI)      
 [2] [startbootstrap](https://startbootstrap.com/)
