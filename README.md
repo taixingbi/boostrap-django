@@ -1,3 +1,9 @@
+# start django
+virtualenv venv
+
+cd mysite 
+python manage.py runserver
+
 # setup env
 
 pip install virtualenv
@@ -27,11 +33,7 @@ python manage.py migrate
 python manage.py runserver
 
 
-# reset from github
-virtualenv venv
 
-cd mysite 
-python manage.py runserver
 
 # reference
 [1] [Django Intro Tutorial! Build a website in 11 mins](https://www.youtube.com/watch?v=PqeAvFf_HDI)      
