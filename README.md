@@ -23,12 +23,12 @@ pip install -r requirements.txt
 
 django-admin startproject mysite
 
-cd mysite 
-//setup myapp    
-python manage.py startapp myapp
-
-//setup database    
-python manage.py migrate
+cd mysite    
+//setup myapp         
+python manage.py startapp myapp       
+  
+//setup database       
+python manage.py migrate         
 
 python manage.py runserver
 
