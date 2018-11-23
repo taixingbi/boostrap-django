@@ -1,5 +1,6 @@
 # start django
-virtualenv venv    
+virtualenv venv  
+source venv/bin/activate
 cd mysite      
 python manage.py runserver
 
