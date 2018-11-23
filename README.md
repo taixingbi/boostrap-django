@@ -1,7 +1,6 @@
 # start django
-virtualenv venv
-
-cd mysite 
+virtualenv venv    
+cd mysite      
 python manage.py runserver
 
 # setup env
