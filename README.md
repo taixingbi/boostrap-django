@@ -35,3 +35,4 @@ python manage.py runserver
 
 # reference
 [1] [Django Intro Tutorial! Build a website in 11 mins](https://www.youtube.com/watch?v=PqeAvFf_HDI)
+[2] [startbootstrap](https://startbootstrap.com/)
